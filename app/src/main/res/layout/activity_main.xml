@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.klim.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a5d6a7"
+        android:columnCount="4"
+        android:layout_gravity="center"
+        android:padding="12dp">
+
+        <Button
+            style="@style/button"
+            android:text="7" />
+
+        <Button
+            style="@style/button"
+            android:text="8" />
+
+        <Button
+            style="@style/button"
+            android:text="9" />
+
+        <Button
+            style="@style/button"
+            android:text="/" />
+
+        <Button
+            style="@style/button"
+            android:text="4" />
+
+        <Button
+            style="@style/button"
+            android:text="5" />
+
+        <Button
+            style="@style/button"
+            android:text="6" />
+
+        <Button
+            style="@style/button"
+            android:text="*" />
+
+        <Button
+            style="@style/button"
+            android:text="1" />
+
+        <Button
+            style="@style/button"
+            android:text="2" />
+
+        <Button
+            style="@style/button"
+            android:text="3" />
+
+        <Button
+            style="@style/button"
+            android:text="-" />
+
+        <Button
+            style="@style/button"
+            android:text="C" />
+
+        <Button
+            style="@style/button"
+            android:text="0" />
+
+        <Button
+            style="@style/button"
+            android:text="+" />
+
+        <Button
+            style="@style/button"
+            android:text="=" />
+
+    </GridLayout>
+</LinearLayout>
